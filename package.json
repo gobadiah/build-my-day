@@ -1,0 +1,11 @@
+{
+  "name": "build-my-day",
+  "version": "1.0.0",
+  "description": "Please help me build my day. That's what we do",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "author": "Michaël Journo",
+  "license": "ISC"
+}
