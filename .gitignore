@@ -38,6 +38,14 @@ jspm_packages
 
 ## End github Node.gitignore ##
 
+# webpack
 webpack-assets.json
+
+# build directories
 dist
 build
+
+# Mac
+.DS_Store
+
+

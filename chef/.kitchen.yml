@@ -1,0 +1,18 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: debian-8.4
+
+transport:
+  username: kitchen
+
+suites:
+  - name: default
+    run_list: 
+        - recipe[build-my-day::default]
+    attributes:
