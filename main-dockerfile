@@ -2,4 +2,6 @@ FROM debian
 
 COPY . /root/src
 
-CMD echo Hello World Please ok ?
+WORKDIR /root/src
+
+CMD node index.js

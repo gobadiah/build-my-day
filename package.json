@@ -39,5 +39,8 @@
     "supertest": "^1.2.0",
     "webpack": "^1.13.1",
     "whatwg-fetch": "^1.0.0"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
   }
 }
