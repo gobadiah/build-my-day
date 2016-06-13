@@ -1,3 +1,5 @@
 FROM debian
 
 COPY . /root/src
+
+CMD /bin/bash echo Hello world
